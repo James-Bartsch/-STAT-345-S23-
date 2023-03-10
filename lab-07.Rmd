@@ -32,7 +32,7 @@ credentials::set_github_pat("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")
      encoding = getOption("encoding"), raw = FALSE,
      method = getOption("url.method", "default"))
 
-print("a new line")
+print("a new line for the third time")
 ```
 
 
