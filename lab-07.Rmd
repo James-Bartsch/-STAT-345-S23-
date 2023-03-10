@@ -28,17 +28,23 @@ credentials::set_github_pat("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")
 
 2. Create a simple R file (script, .rmd, etc.) and add some code to it (any code will do!).
 ```{r}
-file(description = "code directly from the built in '?file' help page", open = "", blocking = TRUE, #code directly from the built in '?file' help page 
+ file(description = "code directly from the built in '?file' help page", open = "", blocking = TRUE,
      encoding = getOption("encoding"), raw = FALSE,
      method = getOption("url.method", "default"))
 
+print("a new line")
 ```
 
 
 3. Commit your file, then Push it to GitHub. Visit your GitHub repository online to verify that your code pushed correctly.
+#verified that it did
 
 
 4. Edit your code. You can change the code or add new lines. Commit and push again.
+
+
 5. Submit the link to your repository on Canvas.
+
+
 6. Have a great break!
 
